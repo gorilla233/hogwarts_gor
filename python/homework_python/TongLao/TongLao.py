@@ -28,8 +28,8 @@ class TongLao:
                 print("I win")
                 break
 
-game = TongLao(1000,200)
-game.fight_zms(1000,200)
+# game = TongLao(1000,200)
+# game.fight_zms(1000,200)
 
 
 
