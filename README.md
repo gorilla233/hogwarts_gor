@@ -1,5 +1,5 @@
 # hogwarts_gor
-## python_practice path
+## python path
 ./python
 - decorator
   - decorator1.py
