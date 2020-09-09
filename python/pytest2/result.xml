@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite errors="0" failures="1" hostname="LAPTOP-M1LUQJ0P" name="pytest" skipped="0" tests="5" time="0.038" timestamp="2020-08-19T11:34:37.029893"><testcase classname="test_calc.TestCalc" file="test_calc.py" line="11" name="test_add1" time="0.001"></testcase><testcase classname="test_calc.TestCalc" file="test_calc.py" line="17" name="test_add2" time="0.000"></testcase><testcase classname="test_calc.TestCalc" file="test_calc.py" line="23" name="test_add3" time="0.000"></testcase><testcase classname="test_calc.TestCalc" file="test_calc.py" line="29" name="test_div1" time="0.000"></testcase><testcase classname="test_calc.TestCalc" file="test_calc.py" line="35" name="test_div2" time="0.001"><failure message="assert 1 == 2.0
+  +1
+  -2.0">self = &lt;python.pytest2.test_calc.TestCalc object at 0x00000206F439D630&gt;
+
+    @pytest.mark.div
+    def test_div2(self):
+        calc = Calculator()
+        result = calc.div(2, 1)
+&gt;       assert 1 == result
+E       assert 1 == 2.0
+E         +1
+E         -2.0
+
+test_calc.py:40: AssertionError</failure></testcase></testsuite></testsuites>
